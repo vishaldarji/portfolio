@@ -1,26 +1,21 @@
 const header = {
-    // all the properties are optional - can be left empty or deleted
-    // homepage: 'https://rajshekhar26.github.io/cleanfolio',
     homepage: 'index.html',
     title: 'Portfolio',
   }
   
   const about = {
-    // all the properties are optional - can be left empty or deleted
-    name: 'Mohan Gadhavi',
+    name: 'Vishal Darji',
     role: 'Front End Developer',
     description:
       'Passionate frontend developer skilled in HTML, CSS, JavaScript, React, and design principles, merging technical expertise with a graphic design background for compelling and seamless web experiences.',
     resume: 'https://drive.google.com/file/d/1sfwiOWMySaNdqZgTcPucXC_IcQyVtGDX/view?usp=sharing',
     social: {
-      linkedin: 'https://www.linkedin.com/in/mohangadhavi31/',
-      github: 'https://github.com/MohanGadhavi',
+      linkedin: 'https://www.linkedin.com/in/vishal-darji-359082286/',
+      github: 'https://github.com/vishaldarji',
     },
   }
   
   const projects = [
-    // projects can be added an removed
-    // if there are no projects, Projects section won't show up
     {
       name: 'Task-Meta App',
       description:
@@ -34,46 +29,44 @@ const header = {
       description:
         'Crafted a ReactJS Currency Converter with real-time API integration and sleek UI using Tailwind CSS',
       stack: ['ReactJS', 'Tailwind', 'JS'],
-      sourceCode: '',
+      sourceCode: 'https://github.com/vishaldarji/CurrencyConvertor.git',
       livePreview: '',
     },
     {
-      name: 'To-Do App',
+      name: 'To-Do List',
       description:
         'Developed a robust React To-Do App with Tailwind CSS, enabling seamless task management, editing, and local data persistence.',
       stack: ['React', 'Tailwind', 'JS'],
-      sourceCode: '',
+      sourceCode: 'https://github.com/vishaldarji/To-do-List-ReactJS-.git',
       livePreview: '',
     },
     {
-      name: 'Weather Forecasting App',
+      name: 'Calculator',
       description:
-        'Built a responsive ReactJS weather app for real-time updates and forecasts, featuring an intuitive and visually appealing interface.',
-      stack: ['React', 'Material UI', 'Tailwind'],
-      sourceCode: '',
-      livePreview: '',
+        'it is a HTML , CSS and JavaScript based calculator an interactive digital tool for performing calculations',
+      stack: ['HTML', 'CSS', 'JavaScript'],
+      sourceCode: 'https://github.com/vishaldarji/calculator-webapp.git',
+      livePreview: 'https://vishaldarji.github.io/calculator-webapp/',
     },
     {
-      name: 'E-Commerce Clone',
+      name: 'My-Mail-Book',
       description:
-        '?????',
-      stack: ['React', 'Material UI', 'Tailwind'],
-      sourceCode: '',
-      livePreview: '',
+        "It is a JavaScript based mail book where you can add email id's and their name",
+      stack: ['HTML', 'CSS', 'JavaScript'],
+      sourceCode: 'https://github.com/vishaldarji/Todo-list.git',
+      livePreview: 'vishaldarji.github.io/Todo-list/',
     },
     {
-      name: 'FoodDelivery App',
+      name: 'PassordGenerator',
       description:
-        '?????',
+        'A Password Generator is a tool that creates strong and secure passwords by combining uppercase and lowercase letters, numbers, and symbols.',
       stack: ['JS', 'CSS', 'HTML'],
-      sourceCode: 'https://github.com/MohanGadhavi/food_delivery_webapp.git',
-      livePreview: 'https://mohangadhavi.github.io/food_delivery_webapp/',
+      sourceCode: 'https://github.com/vishaldarji/PasswordGenerator-webapp.git',
+      livePreview: 'https://vishaldarji.github.io/PasswordGenerator-webapp/',
     },
   ]
   
   const skills = [
-    // skills can be added or removed
-    // if there are no skills, Skills section won't show up
     'HTML',
     'CSS',
     'JavaScript',
@@ -82,13 +75,11 @@ const header = {
     'Material UI',
     'BootStrap',
     'Git',
-    'Python',
     'SQL',
   ]
   
   const contact = {
-    // email is optional - if left empty Contact section won't show up
-    email: 'gadhavimohan71@mail.com',
+    email: 'darjivishal2003@gmail.com',
   }
   
   export { header, about, projects, skills, contact }
