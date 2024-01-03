@@ -8,7 +8,7 @@ const header = {
     role: 'Front End Developer',
     description:
       "Welcome! I'm Vishal Darji, a frontend developer passionate about creating beautiful and functional web experiences. Proficient in HTML, CSS, and JavaScript, I specialize in building dynamic interfaces using React. I collaborate seamlessly with teams through GitHub and enhance user experiences with design frameworks like Tailwind and Material UI. Let's bring your ideas to life!",
-    resume: 'https://drive.google.com/file/d/1sfwiOWMySaNdqZgTcPucXC_IcQyVtGDX/view?usp=sharing',
+    resume: 'https://drive.google.com/file/d/1EMEAUwyghpi_jMLsXyF9HGN25_p_TM3M/view?usp=sharing',
     social: {
       linkedin: 'https://www.linkedin.com/in/vishal-darji-359082286/',
       github: 'https://github.com/vishaldarji',
